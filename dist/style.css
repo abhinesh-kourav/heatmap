@@ -1,0 +1,21 @@
+body{
+  font-family:Calibri;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:#2d3436;
+  color:white;
+}
+svg{
+  border: 2px solid black;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  background-color:  #dfe6e9;
+}
+rect:hover{
+  fill:black;
+}
+
+#tooltip{
+  visibility: hidden;
+}
